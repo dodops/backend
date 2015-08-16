@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "A server API for an angular application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Douglas C Macedo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "body-parser": "^1.13.3",
+    "express-cors": "0.0.3",
+    "cors": "^2.7.1"
+  }
+}
